@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005610F42A1FD2B300E628A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005610F32A1FD2B300E628A1 /* Assets.xcassets */; };
+		00BAE9E82A1FA90A001D4B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BAE9E72A1FA90A001D4B15 /* Preview Assets.xcassets */; };
+		00BAE9F02A1FA9E4001D4B15 /* Prioridade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9EF2A1FA9E4001D4B15 /* Prioridade.swift */; };
+		00BAE9F22A1FAA18001D4B15 /* toDoListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9F12A1FAA18001D4B15 /* toDoListInfo.swift */; };
+		00BAE9F82A1FAD9B001D4B15 /* listItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9F72A1FAD9B001D4B15 /* listItemView.swift */; };
+		00BAE9FA2A1FADC6001D4B15 /* toDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9F92A1FADC6001D4B15 /* toDoListView.swift */; };
+		00BAE9FC2A1FAE16001D4B15 /* addEditTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9FB2A1FAE16001D4B15 /* addEditTodoView.swift */; };
+		00BAE9FF2A1FAE8E001D4B15 /* toDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE9FE2A1FAE8E001D4B15 /* toDoListViewModel.swift */; };
+		00BAEA012A1FAECA001D4B15 /* SwiftUIListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAEA002A1FAECA001D4B15 /* SwiftUIListApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005610F32A1FD2B300E628A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/TodoList_SwiftUI-main/SwiftUIList/Assets.xcassets"; sourceTree = "<group>"; };
+		00BAE9DD2A1FA909001D4B15 /* scholarPlannerMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scholarPlannerMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BAE9E72A1FA90A001D4B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00BAE9EF2A1FA9E4001D4B15 /* Prioridade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prioridade.swift; sourceTree = "<group>"; };
+		00BAE9F12A1FAA18001D4B15 /* toDoListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListInfo.swift; sourceTree = "<group>"; };
+		00BAE9F72A1FAD9B001D4B15 /* listItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listItemView.swift; sourceTree = "<group>"; };
+		00BAE9F92A1FADC6001D4B15 /* toDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListView.swift; sourceTree = "<group>"; };
+		00BAE9FB2A1FAE16001D4B15 /* addEditTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEditTodoView.swift; sourceTree = "<group>"; };
+		00BAE9FE2A1FAE8E001D4B15 /* toDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListViewModel.swift; sourceTree = "<group>"; };
+		00BAEA002A1FAECA001D4B15 /* SwiftUIListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00BAE9DA2A1FA909001D4B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BAE9D42A1FA909001D4B15 = {
+			isa = PBXGroup;
+			children = (
+				00BAE9DF2A1FA909001D4B15 /* scholarPlannerMobile */,
+				00BAE9DE2A1FA909001D4B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00BAE9DE2A1FA909001D4B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9DD2A1FA909001D4B15 /* scholarPlannerMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00BAE9DF2A1FA909001D4B15 /* scholarPlannerMobile */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9FD2A1FAE67001D4B15 /* ViewModel */,
+				00BAE9F42A1FAC6F001D4B15 /* View */,
+				00BAE9EE2A1FA98F001D4B15 /* Modelo */,
+				00BAE9E62A1FA90A001D4B15 /* Preview Content */,
+			);
+			path = scholarPlannerMobile;
+			sourceTree = "<group>";
+		};
+		00BAE9E62A1FA90A001D4B15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9E72A1FA90A001D4B15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00BAE9EE2A1FA98F001D4B15 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9EF2A1FA9E4001D4B15 /* Prioridade.swift */,
+				00BAE9F12A1FAA18001D4B15 /* toDoListInfo.swift */,
+				005610F32A1FD2B300E628A1 /* Assets.xcassets */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		00BAE9F42A1FAC6F001D4B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9F92A1FADC6001D4B15 /* toDoListView.swift */,
+				00BAE9F72A1FAD9B001D4B15 /* listItemView.swift */,
+				00BAE9FB2A1FAE16001D4B15 /* addEditTodoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00BAE9FD2A1FAE67001D4B15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE9FE2A1FAE8E001D4B15 /* toDoListViewModel.swift */,
+				00BAEA002A1FAECA001D4B15 /* SwiftUIListApp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00BAE9DC2A1FA909001D4B15 /* scholarPlannerMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BAE9EB2A1FA90A001D4B15 /* Build configuration list for PBXNativeTarget "scholarPlannerMobile" */;
+			buildPhases = (
+				00BAE9D92A1FA909001D4B15 /* Sources */,
+				00BAE9DA2A1FA909001D4B15 /* Frameworks */,
+				00BAE9DB2A1FA909001D4B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scholarPlannerMobile;
+			productName = scholarPlannerMobile;
+			productReference = 00BAE9DD2A1FA909001D4B15 /* scholarPlannerMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00BAE9D52A1FA909001D4B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00BAE9DC2A1FA909001D4B15 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 00BAE9D82A1FA909001D4B15 /* Build configuration list for PBXProject "scholarPlannerMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00BAE9D42A1FA909001D4B15;
+			productRefGroup = 00BAE9DE2A1FA909001D4B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00BAE9DC2A1FA909001D4B15 /* scholarPlannerMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00BAE9DB2A1FA909001D4B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005610F42A1FD2B300E628A1 /* Assets.xcassets in Resources */,
+				00BAE9E82A1FA90A001D4B15 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BAE9D92A1FA909001D4B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE9FA2A1FADC6001D4B15 /* toDoListView.swift in Sources */,
+				00BAE9FC2A1FAE16001D4B15 /* addEditTodoView.swift in Sources */,
+				00BAE9FF2A1FAE8E001D4B15 /* toDoListViewModel.swift in Sources */,
+				00BAE9F02A1FA9E4001D4B15 /* Prioridade.swift in Sources */,
+				00BAEA012A1FAECA001D4B15 /* SwiftUIListApp.swift in Sources */,
+				00BAE9F82A1FAD9B001D4B15 /* listItemView.swift in Sources */,
+				00BAE9F22A1FAA18001D4B15 /* toDoListInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00BAE9E92A1FA90A001D4B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00BAE9EA2A1FA90A001D4B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00BAE9EC2A1FA90A001D4B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scholarPlannerMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 35TXZT24WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scholar Planner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScholarPlanner.scholarPlannerMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00BAE9ED2A1FA90A001D4B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scholarPlannerMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 35TXZT24WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scholar Planner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScholarPlanner.scholarPlannerMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BAE9D82A1FA909001D4B15 /* Build configuration list for PBXProject "scholarPlannerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BAE9E92A1FA90A001D4B15 /* Debug */,
+				00BAE9EA2A1FA90A001D4B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00BAE9EB2A1FA90A001D4B15 /* Build configuration list for PBXNativeTarget "scholarPlannerMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BAE9EC2A1FA90A001D4B15 /* Debug */,
+				00BAE9ED2A1FA90A001D4B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00BAE9D52A1FA909001D4B15 /* Project object */;
+}
