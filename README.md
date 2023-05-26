@@ -15,3 +15,7 @@
 
 
 <img width="343" alt="excluirTarefas-scholarPlannerMobile" src="https://github.com/leo-ohasi/scholarPlannerMobile/assets/121554044/508770b3-fa2b-411b-b548-e71855ce3edf">
+
+
+<img width="334" alt="logo-scholarPlannerMobile" src="https://github.com/leo-ohasi/scholarPlannerMobile/assets/121554044/50556c0f-01b0-4777-a8bc-7b1ab3412898">
+
